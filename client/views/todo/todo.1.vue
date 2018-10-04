@@ -41,9 +41,6 @@ export default {
     // 可以控制离开时做什么。
     next()
   },
-  metaInfo: {
-    title: 'todo title'
-  },
   data () {
     return {
       todos: [],

@@ -10,8 +10,8 @@ export default {
 </script>
 <style lang="stylus" module>
 .main-header
-  text-align center 
-  h1 
+  text-align center
+  h1
     font-size 100px
     color rgba(175, 47, 47, .4)
     font-weight 300

@@ -2,8 +2,8 @@
   <div class="helper">
     <span class="left">{{unFinishedTodoLength}} items left</span>
     <span class="tabs">
-      <span 
-        v-for="state in states" 
+      <span
+        v-for="state in states"
         :key="state"
         :class="[state, filter === state ? 'actived' : '']"
         @click="toggleFilter(state)"
@@ -66,13 +66,13 @@ export default {
 .left
   text-align left
 .clear
-  text-align right 
+  text-align right
   cursor pointer
 .tabs
   width 200px
   display flex
   justify-content space-around
-  * 
+  *
     display inline-block
     padding 0 10px
     cursor pointer

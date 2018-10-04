@@ -62,3 +62,5 @@ typings/
 
 # dist目录
 dist/
+public
+server-public
